@@ -1,11 +1,10 @@
 body{
     margin: 0;
-    background-color: #0f0f0f;
+    background-color: #232D3F;
 }
 nav{
     border: 3px solid #008170;
     margin: 20px 50px;
-    border-radius: 50px;
     width: calc(100% - 100px);
     color: #008170;
     background-color: #232D3F;
@@ -32,7 +31,7 @@ nav{
     justify-content: center;
     align-items: end;
     width: 40%;
-    height: 85vh;
+    height: 80vh;
 }
 h1{
     margin: 0;
@@ -70,4 +69,56 @@ img{
 }
 .link:hover{
     transform: scale(1.1);
+}
+.text-box {
+    margin: 100px auto;
+    max-width: 1000px;
+    padding: 5px;
+    background-color: #0f0f0F;
+    border-radius: 20px;
+    text-align: center;
+    color:#008170;
+}
+.hero2{
+    background-color: #232D3F;
+    color: #008170;
+    display: flex;
+}
+.neon-text {
+    color: #008170;
+    text-shadow: 0 0 5px #008170,
+                 0 0 10px #008170, 
+                 0 0 20px #008170, 
+                 0 0 30px #008170, 
+                 0 0 40px #008170, 
+                 0 0 50px #008170;
+}
+p{
+    margin: 0;
+    font-size: 50px;
+}
+.neon-circle {
+    width: 160px;
+    height: 160px;
+    background-color: #005B41;
+    border-radius: 50%;
+    margin: 15px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border: 5px solid #008170;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.text-box1{
+    margin: 100px auto;
+    max-width: 1000px;
+    padding: 5px;
+    border-radius: 20px;
+    text-align: center;
+    color:#008170;
 }
