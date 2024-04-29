@@ -72,8 +72,8 @@ img{
 }
 .text-box {
     margin: 100px auto;
-    max-width: 1000px;
-    padding: 5px;
+    max-width: 950px;
+    padding: 30px;
     background-color: #0f0f0F;
     border-radius: 20px;
     text-align: center;
