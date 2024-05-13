@@ -4,8 +4,8 @@ body{
 }
 nav{
     border: 3px solid #008170;
-    margin: 20px 50px;
-    width: calc(100% - 100px);
+    margin: 5px 5px;
+    width: calc(100% - 15px);
     color: #008170;
     background-color: #232D3F;
     display: flex;
@@ -63,7 +63,14 @@ img{
 .link {
     text-decoration: none;
     margin: 0 0 0 100px;
-    font-size: 30px;
+    font-size: 40px;
+    color:#008170;
+    transition: transform 0.3s ease;
+}
+.link1{
+    text-decoration: none;
+    margin: 0 0 0 30px;
+    font-size: 20px;
     color:#008170;
     transition: transform 0.3s ease;
 }
@@ -71,16 +78,16 @@ img{
     transform: scale(1.1);
 }
 .text-box {
+    border: 3px solid #008170;
     margin: 100px auto;
     max-width: 950px;
     padding: 30px;
-    background-color: #0f0f0F;
-    border-radius: 20px;
+    background-color:#0f0f0f;
+    border-radius: 40px;
     text-align: center;
-    color:#008170;
 }
 .hero2{
-    background-color: #232D3F;
+    background-color: #0f0f0f;
     color: #008170;
     display: flex;
 }
@@ -123,6 +130,11 @@ p{
     color:#008170;
 }
 .domik{
-    width: 70px;
-    height:75px;
+    width: 60px;
+    height:65px;
+}
+.hero3{
+    background-color: #0f0f0f;
+    color: #008170;
+    display: flex;
 }
